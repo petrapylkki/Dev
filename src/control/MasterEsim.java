@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet("/")
-public class Esimerkki2 extends HttpServlet {
+public class MasterEsim extends HttpServlet {
 	private static final long serialVersionUID = 1L;
      
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Git esimerkki, joka löytyy tiedostohakemistosta ").append(request.getContextPath());
+		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 
