@@ -14,5 +14,6 @@ public class BranchEsim extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("<h1>jee uusi haara lol</h1>");
+		response.getWriter().append("<h1>jee uusi haara lol</h1>");
 	}
 }
